@@ -1,0 +1,50 @@
+#root{
+    display:flex;
+    margin-top:57px;
+    padding-left:100px;
+    padding-right:100px;
+    box-sizing:border-box;
+    width:100vw;
+
+}
+#intro{
+    width:354px;
+    
+}
+#intro h2{
+    font-family: Playfair Display;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 64px;
+color: #333333;
+border-bottom: 3px solid #F2C94C;
+width:320px;
+line-height:54px;
+}
+#intro p{
+    font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 25px;
+color: #828282;
+margin-top:20px;
+}
+#links a{
+    text-decoration:none;
+    color:#828282;
+    font-family: Open Sans;
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+margin-right:24px;
+transition: color 0.3s ease-in-out;
+}
+#links{
+    margin-top:32px;
+}
+#links a:hover{
+    color:#333333;
+}
