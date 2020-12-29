@@ -5,10 +5,16 @@
     padding-right:100px;
     box-sizing:border-box;
     width:100vw;
+    height: 1000px;
+    margin-bottom: 57px;
 
 }
 #intro{
     width:354px;
+    position: sticky;
+    top: 57px;
+    height: 182px;
+    margin-right: 138px;
     
 }
 #intro h2{
@@ -47,4 +53,78 @@ transition: color 0.3s ease-in-out;
 }
 #links a:hover{
     color:#333333;
+}
+.case-study{
+    width: 749px;
+    height: 321px;
+    margin-bottom: 86px;
+    background-color:#333333;
+    position: relative;
+    border: 0.2px solid #f2f2f2;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+.case-study .box{
+    height: 319px;
+    width: 452px;
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 0;
+    clip-path: polygon(53% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.box-text h3{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    width: 280px;
+    margin-bottom: 8px;
+}
+
+.box-text p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #828282;
+    width: 294px;
+    transition: all 0s;
+}
+
+.box-text{
+position: absolute;
+bottom: 24px;
+right: 24px;
+width: 294px;
+}
+.inverted .box{
+position:absolute;
+top:0;
+left:0;
+clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
+}
+
+.inverted .box-text{
+    left:24px;
+}
+
+.case-study:hover .box{
+    background-color:#FFECB0;
+}
+
+.case-study:hover .box-text p{
+    color:#333333;
+}
+.header{
+    position: sticky;
+    height: 143px;
+    width: 100%;
+}
+
+#case-studies{
+    margin-bottom: 57px;
 }
