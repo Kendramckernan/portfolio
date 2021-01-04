@@ -1,11 +1,9 @@
 #root{
     display:flex;
-    margin-top:57px;
     padding-left:100px;
     padding-right:100px;
     box-sizing:border-box;
     width:100vw;
-    height: 1000px;
     margin-bottom: 57px;
 
 }
@@ -15,6 +13,7 @@
     top: 57px;
     height: 182px;
     margin-right: 138px;
+    margin-top:57px;
     
 }
 #intro h2{
@@ -56,21 +55,20 @@ transition: color 0.3s ease-in-out;
 }
 .case-study{
     width: 749px;
-    height: 321px;
+    height: 319px;
     margin-bottom: 86px;
-    background-color:#333333;
     position: relative;
-    border: 0.2px solid #f2f2f2;
+    outline: 0.2px solid #f2f2f2;
     box-sizing: border-box;
-    transition: all 0.2s ease-in-out;
 }
 .case-study .box{
     height: 319px;
     width: 452px;
     background-color: #ffffff;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 0.1px;
+    top: 50%;
+    transform: translateY(-50%);
     clip-path: polygon(53% 0, 100% 0, 100% 100%, 0% 100%);
 }
 .box-text h3{
@@ -119,12 +117,41 @@ clip-path: polygon(0 0, 53% 0, 100% 100%, 0% 100%);
 .case-study:hover .box-text p{
     color:#333333;
 }
+
+.case-study:hover{
+    border: 0;
+}
+
 .header{
     position: sticky;
     height: 143px;
-    width: 100%;
+    width: 750px;
+    top: 0px;
+    z-index: 100;
+    background-color: #ffffff;
+    
+
+}
+.header p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+    padding-top: 99px;
+}
+
+.header p span{
+    color: #828282;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
 }
 
 #case-studies{
     margin-bottom: 57px;
+    margin-left: 0.5px;
 }
